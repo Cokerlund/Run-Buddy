@@ -17,6 +17,7 @@ body {
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
+  margin: 25px
 }
 
  /* Applies 20px to every side (top, right, bottom, left) */
@@ -34,8 +35,8 @@ header a {
 }
 
 header nav {
-  float: right;
-  margin: 7px 0;
+  float: right; 
+  margin: 10px 0;
 }
 
 header nav ul li {
@@ -43,7 +44,57 @@ header nav ul li {
 }
 
 header nav ul li a {
-  margin: 0 30px;
+  margin: 30px;
   font-weight: lighter;
   font-size: 22px;
+  display: inline;
+}
+
+footer {
+  background: #fce138;
+  width: 94%;
+  padding: 40px 35px;
+  margin: 25px
+}
+
+footer h2 {
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: #024e76;
+}
+
+section h2 {
+  display: inline;
+  text-align: right;
+  margin: 25px;
+}
+
+form {
+  line-height: 0;
+  margin: 25px
+}
+
+h3 {
+  line-height: 0;
+  margin: 25px
+}
+
+p {
+  line-height: 0;
+  margin: 25px
+}
+
+section {
+  padding: 60px;
 }
